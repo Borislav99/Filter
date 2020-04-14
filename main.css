@@ -7,11 +7,13 @@ html {
   font-size: 62.5%;
   font-family: "Baloo Paaji 2", sans-serif, cursive;
 }
+body {
+  background-color: #e9e6ff;
+}
 .main-container {
   height: 100vh;
   position: relative;
   text-align: center;
-  background-color: #e9e6ff;
 }
 .name {
   font-weight: 500;
@@ -58,8 +60,9 @@ html {
   border: 2px solid purple;
 }
 .items-container {
+ padding: 2rem;
   position: relative;
-  max-width: 70rem;
+  max-width: 100rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -68,15 +71,15 @@ html {
   position: relative;
   margin: 1rem;
   overflow: hidden;
-  border: 1px solid #FCFFFD;
+  border: 1px solid #fcfffd;
 }
 .store-img {
   display: block;
   max-width: 100%;
-  transition: all .3s;
+  transition: all 0.3s;
 }
-.store-img:hover{
- transform: scale(1.2);
+.store-img:hover {
+  transform: scale(1.2);
 }
 .store-card {
   background: #fff;
