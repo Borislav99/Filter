@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Baloo Paaji 2", sans-serif, cursive;
+}
+.main-container {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  background-color: #e9e6ff;
+}
+.name {
+  font-weight: 500;
+}
+.name-store {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: purple;
+  font-weight: 900;
+}
+.btn-container {
+  margin-bottom: 1.5rem;
+}
+.btn {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  margin: 1rem;
+  font-style: italic;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  background-color: white;
+}
+.btn:hover {
+  background-color: black;
+  color: purple;
+}
+.form-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.input {
+  padding: 1rem;
+  border-radius: 1rem;
+  outline: none;
+  border: 1px solid #eee;
+  font-style: italic;
+  transition: all 0.3s;
+}
+.input:focus {
+  border: 2px solid purple;
+}
+.items-container {
+  position: relative;
+  max-width: 70rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.store-item {
+  position: relative;
+  margin: 1rem;
+  overflow: hidden;
+  border: 1px solid #FCFFFD;
+}
+.store-img {
+  display: block;
+  max-width: 100%;
+  transition: all .3s;
+}
+.store-img:hover{
+ transform: scale(1.2);
+}
+.store-card {
+  background: #fff;
+  padding: 3rem 0;
+  text-align: center;
+  position: relative;
+}
+.store-card-name,
+.store-card-price {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  font-style: italic;
+}
+.store-card-name {
+  left: 2rem;
+}
+.store-card-price {
+  right: 2rem;
+}
