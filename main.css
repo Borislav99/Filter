@@ -60,7 +60,7 @@ body {
   border: 2px solid purple;
 }
 .items-container {
- padding: 2rem;
+  padding: 2rem;
   position: relative;
   max-width: 100rem;
   margin: 0 auto;
@@ -100,4 +100,12 @@ body {
 }
 .store-card-price {
   right: 2rem;
+}
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 42.5%;
+  }
+  .items-container {
+    grid-template-columns: 1fr;
+  }
 }
