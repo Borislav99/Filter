@@ -8,7 +8,7 @@ html {
   font-family: "Baloo Paaji 2", sans-serif, cursive;
 }
 body {
-  background-color: #e9e6ff;
+  background-color: #FBFCFF;
 }
 .main-container {
   height: 100vh;
@@ -21,7 +21,7 @@ body {
 .name-store {
   font-size: 4rem;
   text-transform: uppercase;
-  color: purple;
+  color: #AF1B3F;
   font-weight: 900;
 }
 .btn-container {
@@ -41,8 +41,8 @@ body {
   background-color: white;
 }
 .btn:hover {
-  background-color: black;
-  color: purple;
+  background-color: #AF1B3F;
+  color: #FBFCFF;
 }
 .form-container {
   position: relative;
@@ -57,12 +57,12 @@ body {
   transition: all 0.3s;
 }
 .input:focus {
-  border: 2px solid purple;
+  border: 2px solid #AF1B3F;
 }
 .items-container {
   padding: 2rem;
   position: relative;
-  max-width: 100rem;
+  max-width: 150rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -71,7 +71,7 @@ body {
   position: relative;
   margin: 1rem;
   overflow: hidden;
-  border: 1px solid #fcfffd;
+  border: 1px solid rgba(102, 16, 38, 0.8);
 }
 .store-img {
   display: block;
@@ -101,11 +101,27 @@ body {
 .store-card-price {
   right: 2rem;
 }
-@media screen and (max-width: 650px) {
+@media screen and (min-width: 500px) {
   html {
     font-size: 42.5%;
   }
   .items-container {
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 700px) {
+  html {
+    font-size: 52.5%;
+  }
+  .items-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 62.5%;
+  }
+  .items-container {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
