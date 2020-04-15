@@ -8,7 +8,9 @@ html {
   font-family: "Baloo Paaji 2", sans-serif, cursive;
 }
 body {
-  background-color: #FBFCFF;
+  /*AF1B3F*/
+  /*#FBFCFF*/
+  background: linear-gradient(to left top, rgba(3, 25, 39, 0.808), #FBFCFF);
 }
 .main-container {
   height: 100vh;
@@ -21,7 +23,7 @@ body {
 .name-store {
   font-size: 4rem;
   text-transform: uppercase;
-  color: #AF1B3F;
+  color: #031927;
   font-weight: 900;
 }
 .btn-container {
@@ -41,7 +43,7 @@ body {
   background-color: white;
 }
 .btn:hover {
-  background-color: #AF1B3F;
+  background-color: #031927;
   color: #FBFCFF;
 }
 .form-container {
@@ -52,12 +54,12 @@ body {
   padding: 1rem;
   border-radius: 1rem;
   outline: none;
-  border: 1px solid #eee;
+  border: 1px solid hsla(203, 86%, 8%, 0.5);
   font-style: italic;
   transition: all 0.3s;
 }
 .input:focus {
-  border: 2px solid #AF1B3F;
+  border: 2px solid #031927;
 }
 .items-container {
   padding: 2rem;
@@ -71,7 +73,7 @@ body {
   position: relative;
   margin: 1rem;
   overflow: hidden;
-  border: 1px solid rgba(102, 16, 38, 0.8);
+  border: 1px solid rgba(3, 25, 39, 0.493);
 }
 .store-img {
   display: block;
